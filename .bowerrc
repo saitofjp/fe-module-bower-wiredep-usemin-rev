@@ -1,0 +1,7 @@
+{
+    "directory": "public/bower_components",
+    "json": "bower.json",
+    "scripts": {
+        "postinstall": "node node_modules/wiredep/wiredep-cli.js -s public/index.html"
+    }
+}
